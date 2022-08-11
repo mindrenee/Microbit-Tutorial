@@ -48,11 +48,19 @@ Er zijn verschillende manieren om de knoppen te programmeren. Start eerst een ni
 
 Doe dit een tweede keer en verander hiervan de A in een B. Vervolgens kun je zelf het programma afmaken door verschillende icoontjes te laten verschijnen als je knop A of knop B indrukt, of andere tekst te laten verschijnen. Of iets wat je zelf bedacht hebt.
 
-We gaan nu een andere variant van het programma maken. Hiervoor gebruiken we een stukje logica. 
+We gaan nu een andere variant van het programma maken. Hiervoor gebruiken we een stukje logica. Je kiest hiervoor eerst het basis blok "De hele tijd". Volgens kies je uit het tabblad "Logica" het blok "Als ... dan". Je kunt nu uit het tabblad "Invoer" het blok "Knop A wordt ingedrukt" met de hoeken in het "Als ... dan" blok slepen. Dit doe je nog een keer vanaf het logica blok maar nu vul je B in. Vervolgens maak je het programma verder af zoals je vorige programma. 
+
+![Logica](images/Logica.png)
+
+Als je het programma nu naar je microbit flasht zie je als het goed is geen verschil. Programmeurs hebben dit vaak. Er zijn verschillende manieren om hetzelfde te bereiken. In de komende periode zul je dit vaak meemaken. Raak dan dus niet in paniek.
+
+Het voordeel van het logica blok is dat je meerdere als dan blokken kunt gebruiken. Je kunt zo'n blok bijvoorbeeld ook uitklappen om aan te geven wat er moet gebeuren als er geen knop wordt ingedrukt. Je kunt de leds dan bijvoorbeeld leeg laten. 
+
+![Logica2](images/Logica2.png)
 
 ## Variabelen: Opdracht 3
 
-
+We gaan nu een paar dingen combineren. 
 
 Variabelen hebben meestal een logische naam zoals teller, getal of nummer. Soms gebruiken programmeurs ook slechts 1 letter zoals i of x. Voor nu maakt het niet uit. Klik op het tabblad "Variabelen" en klik "Maak variabelen". Geef je variabelen een naam.
 
