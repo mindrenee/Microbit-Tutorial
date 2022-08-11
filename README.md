@@ -6,6 +6,8 @@ Als eerste ga je de microbit aansluiten aan je computer om te kijken of je conne
 
 ![Start](images/Start.png)
 
+[Troubleshooting connectie](FAQ.md)
+
 ## Basis: Opdracht 1a
 
 Je kunt de microbit als led tekstbalk gebruiken. De tekst scrollt dan van rechts naar links over de 5x5 led matrix. Je gebruikt hiervoor het basis blok "Toon tekens". De tekst in het witte invoerveld kun je zelf aanpassen.
@@ -26,13 +28,33 @@ Als je programmeert met tekst commando's zijn deze vrijwel altijd in het Engels.
 
 ## Basis: Opdracht 1b
 
-We gaan nu door met de volgende opdracht. We gaan nu icoontjes op de 5x5 led matrix weergeven. 
+We gaan nu door met de volgende opdracht. We gaan nu icoontjes op de 5x5 led matrix weergeven. Je hebt hierin 2 opties. Of je kiest voor het blok "Toon pictogram" of "Toon lichtjes". In "Toon pictogram" heb je de keuze uit een aantal standaard icoontjes, maar je kunt ze ook zelf maken. 
 
-Figuur op leds
+![Leds](images/Leds.png)
+
+Sleep de "Toon tekens" richting prullebak (naar de tabbladen). Plaats vervolgens het blok naar keuze naar "Bij opstarten". Flash je code naar de microbit. Schuif na het uitvoeren van de code, het blokje naar "De hele tijd". Zie je nu nog verschil?
+
+Ga door met de volgende opdracht.
 
 ## Knoppen: Opdracht 2
 
+Zoals je al hebt kunnen zien zitten er op de microbit 3 knoppen. A, B en een reset knop. De A en B knop zit voorop en kunnen we gebruiken om mee te programmeren.
+
+![Microbit](images/Microbit.png)
+
+Er zijn verschillende manieren om de knoppen te programmeren. Start eerst een nieuwe project en sleep de blauwe blokken naar de prullebak (in het midden van de tabbladen). Kijk vervolgens bij het tabblad "Invoer" en sleep het blok "Wanneer de knop A wordt ingedrukt" naar het programmeerveld. 
+
+![Knop_indrukken](images/Knop_indrukken.png)
+
+Doe dit een tweede keer en verander hiervan de A in een B. Vervolgens kun je zelf het programma afmaken door verschillende icoontjes te laten verschijnen als je knop A of knop B indrukt, of andere tekst te laten verschijnen. Of iets wat je zelf bedacht hebt.
+
+We gaan nu een andere variant van het programma maken. Hiervoor gebruiken we een stukje logica. 
+
 ## Variabelen: Opdracht 3
+
+
+
+Variabelen hebben meestal een logische naam zoals teller, getal of nummer. Soms gebruiken programmeurs ook slechts 1 letter zoals i of x. Voor nu maakt het niet uit. Klik op het tabblad "Variabelen" en klik "Maak variabelen". Geef je variabelen een naam.
 
 Ene knop +1 de andere -1
 
@@ -44,7 +66,7 @@ Start een nieuw project en sleep de blauwe begin blokken weg uit het veld. Net z
 
 ![Schudden](images/Schudden.png)
 
-We willen een willekeurig/random getal kiezen. Hiervoor moeten we een variabele aanmaken. Variabelen hebben meestal een logische naam zoals teller, getal of nummer. Soms gebruiken programmeurs ook slechts 1 letter zoals i of x. Voor nu maakt het niet uit. Klik op het tabblad "Variabelen" en klik "Maak variabelen". Geef je variabelen een naam.
+We willen een willekeurig/random getal kiezen. Hiervoor moeten we een variabele aanmaken. Maak nu opnieuw een variable aan en geef deze een naam, zoals getal.
 
 Sleep daarna het blok "Stel getal in op 0" tussen "bij schudden".
 
