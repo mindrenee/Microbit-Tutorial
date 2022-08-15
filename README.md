@@ -2,7 +2,7 @@
 
 De Microbit is een zogenaamd Printed circuit board (PCB). Een electronisch plaatje met verschillende onderdelen zoals LEDs, knoppen en sensoren. Deze kun je programmeren met je telefoon, je tablet of je computer. Gedurende de eerste weken gaan we aan de slag met deze micro computer. Je leert hiermee de basis van programmeren. Je mag zelf kiezen of je dit wilt doen met [makecode](https://makecode.microbit.org/#editor) blocks (grafische code aan elkaar slepen) of met tekstueel programmeren (in JavaScript of Python). 
 
-Als eerste ga je de microbit aansluiten aan je computer om te kijken of je connectie hebt. 
+Als eerste ga je de microbit aansluiten aan je computer om te kijken of je connectie hebt. Sluit de USB kabel aan op je microbit en je laptop. Als het goed is wordt de microbit direct herkend door je computer. Je kunt vanuit Google Chrome code direct op de microbit downloaden/flashen. Als dit niet lukt wordt er een .hex bestandje gedownload wat je vanuit je download map naar de microbit kunt slepen met de verkenner. 
 
 ![Start](images/Start.png)
 
@@ -60,11 +60,15 @@ Het voordeel van het logica blok is dat je meerdere als dan blokken kunt gebruik
 
 ## Variabelen: Opdracht 3
 
-We gaan nu een paar dingen combineren. 
+We gaan nu een paar dingen combineren en een nieuw soort blok introduceren. We gebruiken straks de knoppen. Je mag zelf beslissen in welke vorm je dat doet, vanuit de startblokken, of met de logica. Nu maken we een apparaatje waarmee je bezoekers kunt tellen. Je drukt steeds op knop A om de teller op te hogen als er iemand naar binnen gaat en op knop B als er iemand weggaat.
 
-Variabelen hebben meestal een logische naam zoals teller, getal of nummer. Soms gebruiken programmeurs ook slechts 1 letter zoals i of x. Voor nu maakt het niet uit. Klik op het tabblad "Variabelen" en klik "Maak variabelen". Geef je variabelen een naam.
+Variabelen hebben meestal een logische naam zoals teller, getal of nummer. Soms gebruiken programmeurs ook slechts 1 letter zoals i of x. Voor nu maakt het niet uit. Klik op het tabblad "Variabelen" en klik "Maak variabelen". Geef je variabelen een naam. Bijvoorbeeld teller of in het Engels counter. 
 
-Ene knop +1 de andere -1
+![Maak_variabele](images/Maak_variabele.png)
+
+Als het programma start dan stel je de variable in op 0, er zijn dan nog geen bezoekers binnen. Wordt er op knop A gedrukt dan verander je de variabele met + 1. Wordt er op knop B gedrukt dan veranderd te variabelen met - 1. We willen in ieder geval dat de hele tijd de variabele op het scherm getoond wordt. 
+
+In de tekst staan voldoende tips over welke blokken je kunt gebruiken. Flash het programma als je klaar bent weer naar je microbit om te testen of het werkt zoals je wilt. 
 
 ## Sensoren: Opdracht 4a
 
@@ -98,7 +102,13 @@ Kom je er echt helemaal niet uit? Dan is hier een [Hint](Antwoord_Dobbelsteeen.m
 
 ## Sensoren: Opdracht 4b
 
-Kompas
+We gaan nu aan de slag met de kompas sensor. De kompassensor geeft een  waarde graden. Het gaat dan om het aantal graden vanuit het magnetisch noorden. Teken op een blaadje een cirkel en bepaal vanuit daar welke voorwaarden moet gebruiken om het noorden, oosten, zuiden en westen te bepalen. 
+
+Vertaal nu wat je hebt getekend naar code. Het programma lijkt een beetje op de vorige opdracht. Je kunt het invoer blok "Kompasrichting" direct in je voorwaarden in het logische blok gebruiken.
+
+![Kompas](images/Kompasrichting.png)
+
+Flash de code naar je microbit en bepaal het noorden van het lokaal.
 
 ## Sensoren: Opdacht 4c 
 
@@ -122,4 +132,4 @@ Je hebt nu kennis gemaakt met de meeste van de Microbit onderdelen op de chip. E
 
 ## Microbit uitbreiden met de pins
 
-## Microbit gamecontroller
+## Microbit spel maken met een gamecontroller
