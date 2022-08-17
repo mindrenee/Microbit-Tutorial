@@ -114,9 +114,17 @@ Flash de code naar je microbit en bepaal het noorden van het lokaal.
 
 De microbit kan lichtsterkte meten. Dus of het donker of licht is in de kamer. We kunnen de microbit op deze manier als een soort zaklampje gebruiken. Als het donker is, moeten de leds meer schijnen dan wanneer het licht is.
 
+Soortgelijk als bij de vorige opdracht werken we weer met voorwaarden "Als ... dan" en "Anders als ... dan". Als invoer blok gebruiken we "Lichtniveau". 
 
+![Lichtniveau](images/Lichtniveau.png)
 
-Zaklamp (lichtsterkte)
+Het lichtniveau gaat van waarde 0 tot waarde 255 (Dit heeft iets te maken met bits en bytes. Hier komen we later in het jaar op terug). Hoe feller het licht hoe hoger de waarde. 
+
+Er zijn 2 manieren om de microbit te programmeren om meer licht te geven. Bij de ene zet je meer leds aan. Als de omgeving licht is dan laat je maar 1 ledje in de 5x5 matrix branden. Als het donker is zet je ze allemaal aan. Maar de andere manier is om de leds letterlijk harder of zachter te laten branden. Je gebruikt hiervoor het blok "Stel helderheid in op ..." Voordat het "Toon lichtjes" blok gebruikt. Je vindt dat blok onder de drie puntjes onder het tabblad "Lichtjes".
+
+![Helderheid](images/Helderheid.png)
+
+Speel eens met de verschillende varianten en kies welke jij het mooist vindt op je microbit. 
 
 ---
 
